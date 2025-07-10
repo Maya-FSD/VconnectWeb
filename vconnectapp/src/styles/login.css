@@ -1,0 +1,31 @@
+.login-container {
+  max-width: 360px;
+  margin: 100px auto;
+  padding: 2rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  font-size: 16px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-text {
+  color: red;
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
